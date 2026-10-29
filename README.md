@@ -23,9 +23,11 @@ Territoire d'étude : **Val-de-Marne (94)**
 
 ## Architecture prévue
 
-```
-Sources ouvertes ──> Pipeline Python (GeoPandas) ──> PostGIS (Docker) ──> Vues SQL d'indicateurs ──> Carte web (MapLibre)
-```
+1. Téléchargement des données ouvertes (IGN, Géorisques, INSEE)
+2. Nettoyage et préparation en Python (GeoPandas)
+3. Stockage dans une base PostGIS (Docker)
+4. Calcul des indicateurs en SQL
+5. Affichage sur une carte web interactive (MapLibre)
 
 ## Feuille de route
 
@@ -44,4 +46,4 @@ Python · GeoPandas · PostgreSQL/PostGIS · SQL · Docker · QGIS · JavaScript
 
 ## Auteure
 
-Eunice Wouoda Dongmo – Data Engineer géospatial
+Eunice Wouoda Dongmo – Géomaticienne
