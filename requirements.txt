@@ -1,0 +1,6 @@
+geopandas>=1.0
+pyogrio
+SQLAlchemy>=2.0
+GeoAlchemy2
+psycopg2-binary
+python-dotenv
